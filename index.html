@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>CSS - NFT Market</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -23,10 +23,85 @@
 </head>
 
 <body>
+  <header class="header">
+    <a href="" class="header__logo">
+      <img src="img/Artzie..svg" alt="Logotipo de NFT Marketplace">
+    </a>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+    <nav class="principal-nav">
+      <ul>
+        <li><a href="#">Market</a></li>
+        <li><a href="#">How it Works</a></li>
+        <li><a href="#">Galery</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <aside class="login">
+      <ul>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </aside>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>The largest NFT market with exceptional items on the bid</h1>
+      <p class="hero__subtitle">Collectible and non-fungible tokens in your hands</p>
+      <div class="hero__buttons">
+        <a href="#">Explore</a>
+        <a href="#">Learn more <img src="img/Arrow.svg" alt=""></a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="featured__title">Featured Artwork</h2>
+      <div class="featured__imgs">
+        <img width="400px" src="img/fondo1.png" alt="">
+        <img width="400px" src="img/fondo2.png" alt="">
+      </div>
+    </section>
+
+    <section class="nft">
+      <div class="nft__imagencotainer">
+        <img src="img/imagen_principal.png" alt="">
+      </div>
+
+      <div class="nft__data">
+        <div class="nft__header">
+          <div class="nft__owner">
+            <img src="img/fot_perfil.png" alt="">
+            <div class="nft__owner-data">
+              <p class="nft__username">@samanthaw</p>
+              <p class="nft__name">Artwork #01</p>
+            </div>
+          </div>
+
+          <div class="nft__price">
+            <p class="nft__price-current">Current Bid</p>
+            <p class="nft__price-number">1.00 ETH</p>
+          </div>
+
+          <div class="nft__buttons">
+            <a href="#"> Bid Now</a>
+            <a href="#"> View Artwork</a>
+          </div>
+
+          <div class="nft__numbers">
+            <div><span class="nft__number">50k+</span>Artwork </div>
+            <div><span class="nft__number">30k+</span>Artist </div>
+            <div><span class="nft__number">20k+</span>Auction </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
 
 </body>
 
